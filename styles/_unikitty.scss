@@ -14,18 +14,8 @@ $yellow: #f4ed85;
 $white: #fbfbfb;
 $black: #2b2729;
 
-@mixin pseduo-div( $w, $h, $c ) {
-  content: '';
-  width: $w;
-  height: $h;
-  position: absolute;
-  background-color: $c;
-}
-
 body {
   margin: 0;
-  background: $yellow;
-  background: linear-gradient( $yellow, darken( $yellow, 5 ), darken( $yellow, 5 ) 92vmin, $pink calc( 92vmin + 1px ), darken( $pink, 5 ));
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -33,7 +23,21 @@ body {
   overflow: hidden;
 }
 
-.unikitty-container {
-  width: 90vmin;
-  height: 90vmin;
+.unikitty {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate3d( -50%, -50%, 0 );
+  width: 45vmin;
+  height: 59vmin;
+  background-color: lightyellow;
+
+  &::before {
+    content: '';
+    display: block;
+    width: 1vmin;
+    height: 1vmin;
+    box-shadow:
+      32vmin 0vmin $blue1;
+  }
 }
