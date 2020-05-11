@@ -1,0 +1,39 @@
+$blue1: #76b4db;
+$blue2: #2e9fda;
+$blue3: #488db5;
+$pink1: #efa8ca;
+$pink1: #d999b6;
+$pink1: #e05da2;
+$pink1: #b45383;
+$grey1: #d5dde0;
+$grey1: #bac2c9;
+$green1: #c9d79a;
+$green2: #b2bb7e;
+$moss: #c1e1dc;
+$yellow: #f4ed85;
+$white: #fbfbfb;
+$black: #2b2729;
+
+@mixin pseduo-div( $w, $h, $c ) {
+  content: '';
+  width: $w;
+  height: $h;
+  position: absolute;
+  background-color: $c;
+}
+
+body {
+  margin: 0;
+  background: $yellow;
+  background: linear-gradient( $yellow, darken( $yellow, 5 ), darken( $yellow, 5 ) 92vmin, $pink calc( 92vmin + 1px ), darken( $pink, 5 ));
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.unikitty-container {
+  width: 90vmin;
+  height: 90vmin;
+}
