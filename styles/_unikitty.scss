@@ -23,7 +23,9 @@ body {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  background: linear-gradient( #ffffe0, #f3f3f3, #99a7ca );
+  // background: linear-gradient(  #99a7ca, #f3f3f3, #ffffe0, );
+  // background: linear-gradient( #f3f3f3, #ffffe0);
+  background-color: #ffffe0;
 }
 
 .unikitty {
@@ -72,6 +74,8 @@ body {
       33vmin 9vmin $blue3,
       33vmin 9vmin $blue3,
       34vmin 9vmin $blue3,
+
+      18vmin 10vmin $pink5, /* ears start */
       30vmin 10vmin $blue1,
       31vmin 10vmin $blue3,
       32vmin 10vmin $blue2,
@@ -79,8 +83,7 @@ body {
       33vmin 10vmin $blue3,
       34vmin 10vmin $blue3,
       44vmin 10vmin $pink5,
-
-      18vmin 11vmin $pink5, /* both ears start */
+      18vmin 11vmin $pink5,
       19vmin 11vmin $pink5,
       20vmin 11vmin $pink5,
       30vmin 11vmin $blue2,
@@ -97,6 +100,7 @@ body {
       20vmin 12vmin $pink4,
       21vmin 12vmin $pink5,
       22vmin 12vmin $pink5,
+      29vmin 12vmin $grey1,
       30vmin 12vmin $grey1,
       31vmin 12vmin $grey1,
       32vmin 12vmin $grey2,
@@ -164,7 +168,7 @@ body {
       26vmin 15vmin $pink4,
       27vmin 15vmin $pink5,
       29vmin 15vmin $grey1,
-      30vmin 15vmin $grey1,
+      30vmin 15vmin $white,
       31vmin 15vmin $white,
       32vmin 15vmin $white,
       33vmin 15vmin $grey1,
@@ -1026,6 +1030,7 @@ body {
       33vmin 43vmin $pink1,
       34vmin 43vmin $pink1,
       35vmin 43vmin $pink1,
+      3vmin 44vmin $grey1,
       4vmin 44vmin $blue2,
       5vmin 44vmin $blue2,
       6vmin 44vmin $blue2,
@@ -1073,8 +1078,9 @@ body {
       33vmin 45vmin $pink1,
       34vmin 45vmin $pink1,
       35vmin 45vmin $pink1,
-      1vmin 46vmin $grey2,
-      5vmin 46vmin $blue2,
+
+      1vmin 46vmin $grey2, /* tail curl starts here */
+      5vmin 46vmin $blue1,
       6vmin 46vmin $blue2,
       7vmin 46vmin $blue2,
       8vmin 46vmin $blue2,
@@ -1094,11 +1100,11 @@ body {
       33vmin 46vmin $pink1,
       34vmin 46vmin $pink1,
       35vmin 46vmin $pink1,
-      0vmin 47vmin $grey1,
+      0vmin 47vmin $grey2,
       1vmin 47vmin $grey1,
-      2vmin 47vmin $grey1,
+      2vmin 47vmin $grey2,
       3vmin 47vmin $grey2,
-      5vmin 47vmin $blue2,
+      5vmin 47vmin $blue1,
       6vmin 47vmin $blue2,
       7vmin 47vmin $blue2,
       8vmin 47vmin $blue2,
@@ -1119,8 +1125,8 @@ body {
       34vmin 47vmin $pink1,
       35vmin 47vmin $pink1,
       0vmin 48vmin $grey1,
-      1vmin 48vmin $grey1,
-      2vmin 48vmin $grey1,
+      1vmin 48vmin $white,
+      2vmin 48vmin $white,
       3vmin 48vmin $grey1,
       4vmin 48vmin $blue1,
       5vmin 48vmin $blue2,
@@ -1145,7 +1151,7 @@ body {
       35vmin 48vmin $pink1,
       0vmin 49vmin $grey2,
       1vmin 49vmin $blue2,
-      2vmin 49vmin $grey1,
+      2vmin 49vmin $white,
       3vmin 49vmin $blue1,
       4vmin 49vmin $blue2,
       5vmin 49vmin $blue2,
@@ -1194,7 +1200,7 @@ body {
       34vmin 50vmin $pink1,
       35vmin 50vmin $pink1,
 
-      1vmin 51vmin $grey2, /* coloured part of legs start */
+      1vmin 51vmin $blue1, /* coloured part of legs start */
       2vmin 51vmin $blue2,
       3vmin 51vmin $blue2,
       4vmin 51vmin $blue2,
