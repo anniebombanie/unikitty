@@ -23,6 +23,7 @@ body {
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  background: linear-gradient( #ffffe0, #f3f3f3, #99a7ca );
 }
 
 .unikitty {
@@ -32,7 +33,6 @@ body {
   transform: translate3d( -50%, -50%, 0 );
   width: 45vmin;
   height: 59vmin;
-  background-color: lightyellow;
 
   &::before {
     content: '';
@@ -491,7 +491,7 @@ body {
       29vmin 27vmin $white,
       30vmin 27vmin $pink5,
       31vmin 27vmin $pink5,
-      32vmin 27vmin $pink6,
+      32vmin 27vmin $pink5,
       33vmin 27vmin $white,
       34vmin 27vmin $white,
       35vmin 27vmin $black,
